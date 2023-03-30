@@ -1,0 +1,3152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+nav 
+{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: #bbb;
+    margin-top: -116.3rem;
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+label p 
+{
+    position: absolute;
+    font-size: 1.1em;
+    margin-top: 0.6rem;
+    padding: 15px;
+    color: #fff;
+}
+
+
+
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+}
+
+
+nav li 
+{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+nav a 
+{
+    color: #000;
+    font-size: 20px;
+}
+
+
+nav #icon .container {
+  display: none ;
+  float: right;
+  padding: 3px;        
+  margin-top: 0.7rem; 
+}
+
+.bar1, .bar3 {
+  width: 33px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+
+.bar2 {
+  width: 33px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    nav ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #999;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        overflow: hidden;
+    }
+    
+    nav li 
+    {
+        display: block;
+    }
+    
+    nav li a 
+    {
+        font-size: 32px;
+        transition: 0.3s;
+        padding: 3px;
+    }
+    
+    
+    nav li a:hover
+    {
+        border-bottom: 3px solid rgba(0,0,0,0.3);
+        color: rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+    nav #icon .container {
+        display: inline-block;
+        float: right;
+        padding: 3px;        
+        margin-top: 0.7rem; 
+      }
+    
+    nav #icon
+    {
+        width: 1px;
+         margin-left: 360px;
+    }
+    
+    nav ul.show
+    {
+        left: 0;
+    }
+    
+
+.home 
+{
+    width: 100%;
+    height: 600px;
+    background: #000;   
+}
+
+
+.home .topp
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .topp h1
+{   
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: 6rem;
+    padding: 15px;
+}
+
+.home .topp h1 span 
+{
+    color: #ff6622;
+    font-size: 1.4em;
+}
+
+
+
+.home .tochka
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .tochka h5
+{
+    font-size: 5em;
+    color: #fff;
+    margin-top: rem;
+}
+       
+
+.home h3
+{
+	position: absolute;
+	font-size: 0.8em;
+	color: #fff;
+	margin-top: rem;
+	padding: 15px;
+}
+
+
+.down1
+{
+    display: flex;
+    justify-content: center;
+	margin-top: 15rem;
+}
+
+.down1 a 
+{
+    display: inline-block;
+    padding: 14px 80px;
+    background: #ff6622;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+
+.down1 a:hover
+{
+    background: #999;
+    box-shadow: 0px 0px 4px 4px #999;
+    transition: 0.3s
+}
+
+
+
+
+
+/********More1********/
+
+
+.more1 
+{
+    width: 100%;
+    height: 700px;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center ;
+}
+
+
+.more1 h1
+{
+    font-size: 1.2em;
+    padding: 25px   ;
+}
+
+
+
+
+.more1 p
+{
+    position: absolute;
+    font-size: .8em;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+
+.more1 .team
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.more1 .team img
+{
+    display: flex;
+    width: 55%;
+    left: 25%;
+    margin-top: 30rem;
+}
+
+
+
+
+/*******footer*******/
+
+
+footer
+{
+    width: 100%;
+    height: 400px;
+    background: #444;
+}
+
+
+footer .type1
+{
+    margin-top: rem;
+    padding: 30px;
+}
+
+footer .type1 ul li 
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+}
+
+
+footer .type1 ul li a
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    transition: 0.3s;
+}
+
+
+footer .type1 ul li a:hover
+{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    transition: 0.3s;
+}
+
+
+
+/*************Deliver***********/
+
+
+.deliver
+{
+	width: 100%;
+	height: 1100px;
+}
+
+
+.deliver h1
+{
+	font-size: 3em;
+	color: #444;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+
+.deliver .main-wrapper
+{
+    
+}
+
+
+
+.deliver .inputs-block
+{
+	margin-top: 2rem;
+    padding: 20px;
+}
+
+
+.deliver .inputs-block-column h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper
+{
+	margin-top: 0.2rem;
+}
+
+
+.deliver .inputs-wrapper input
+{
+	width: 80px;
+	height: 30px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 0.7em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+.deliver .total-number
+{
+	position: absolute;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block2
+{
+	margin-top: -0.5rem;
+}
+
+
+.deliver .inputs-block-column2 h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper2
+{
+	margin-top: 1rem;
+}
+
+
+.deliver .inputs-wrapper2 input
+{
+	width: 200px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.deliver .total-numb
+{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 10rem;
+}
+
+
+.deliver .total-numb input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .boxA
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: -10.5rem;
+}
+
+
+
+.deliver .boxA h3
+{
+	padding: 10px;
+}
+
+
+.deliver .total-number
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: -1rem;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block-column3
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column4
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column5
+{
+	position: absolute;
+	margin-top: -8rem;
+	margin-left: -480px;
+}
+
+
+.deliver .inputs-block-column5 h6
+{
+	font-size: 2em;
+	color: #faa520;
+}
+
+
+.deliver .inputs-block-column5 input
+{
+	font-size: 4em;
+	width: 214px;
+}
+
+
+
+.deliver .inputs-block-column6
+{
+	position: absolute;
+	margin-left: -470px;
+}
+
+.deliver .inputs-block-column6 h6
+{
+	font-size: 1.6em;
+	color: #f00;
+}
+
+
+
+.deliver .inputs-block-column6 input
+{
+	font-size: 3em;
+	width: 128px;
+	color: #444;
+}
+
+
+
+.deliver .total-numbA
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top:  -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbA input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbB
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbB input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbC
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbC input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbD
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbD input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbE
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbE input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbF
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbF input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbG
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbG input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+
+.deliver .total-numbH
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbH input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbI
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbI input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+.deliver .total-numbJ
+{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -2.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbJ input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+/**********Contact*******/
+
+.contact
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background: #de681a;
+}
+
+
+.contact h1
+{
+	position: absolute;
+	font-size: 1.6em;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+
+.contact .box 
+{
+	position: absolute;
+	width: 85%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-radius: 15px;
+	margin-top: 5rem;
+}
+
+
+.contact .box h3
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #000;
+	margin-top: 1rem;
+}
+
+
+.contact .box .ins 
+{
+	display: block;	
+	margin: auto;
+	position: absolute;
+	margin-top: 4.5rem;
+}
+
+
+
+.contact .box .ins input 
+{
+	width: 100%;
+	height: 30px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact .box .ins span input 
+{
+	width: 100%;
+	height: 60px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact a 
+{
+	position: absolute;
+	padding: 14px 75px;
+	background: #de681a;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: 17rem;
+}
+
+
+
+
+/***********Info************/
+
+
+.info
+{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center ;
+}
+
+
+.info h1
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #faa520;
+	margin-top: 0.5rem;
+}
+
+
+
+.info .boxe
+{
+	position: absolute;
+	width: 80%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 5rem;
+}
+
+
+
+.info .boxe h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe img 
+{
+	position: absolute;
+	width: 55%;
+}
+
+
+
+
+.info .boxe2
+{
+	position: absolute;
+	width: 80%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 17rem;
+}
+
+
+
+.info .boxe2 h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe2 img 
+{
+	position: absolute;
+	width: 55%;
+	margin-top: 0.3rem;
+}
+
+
+
+.info .boxe3
+{
+	position: absolute;
+	width: 80%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 29rem;
+}
+
+
+
+.info .boxe3 h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe3 img 
+{
+	position: absolute;
+	width: 55%;
+	margin-top: 0.3rem;
+}
+
+
+
+.info a 
+{
+	position: absolute;
+	padding: 15px 85px;
+	background: #de681a;
+	color: #fff;
+	font-size: 1.1em;
+	text-decoration: none;
+	border-radius: 15px;
+	margin-top: 44rem;
+}
+
+
+
+
+
+
+/**********Aboutus***********/
+
+
+.aboutus
+{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.aboutus h1
+{
+	position: absolute;
+	font-size: 1.4em;
+	color: #222;
+	margin-top: 1rem;
+}
+
+
+
+.aboutus h2
+{
+	position: absolute;
+	font-size: 1.4em;
+	color: #faa520;
+	margin-top: 4rem;
+}
+
+
+
+
+.aboutus iframe
+{
+	position: absolute;
+	margin-top: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+    nav ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #999;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        overflow: hidden;
+    }
+    
+    nav li 
+    {
+        display: block;
+    }
+    
+    nav li a 
+    {
+        font-size: 32px;
+        transition: 0.3s;
+        padding: 3px;
+    }
+    
+    
+    nav li a:hover
+    {
+        border-bottom: 3px solid rgba(0,0,0,0.3);
+        color: rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+
+    nav #icon .container {
+        display: inline-block;
+        float: right;
+        padding: 3px;        
+        margin-top: 0.7rem; 
+      }
+    
+    nav #icon
+    {
+        width: 1px;
+         margin-left: 280px;
+    }
+    
+    nav ul.show
+    {
+        left: 0;
+    }
+    
+
+.home 
+{
+    width: 100%;
+    height: 760px;
+    background: #000;   
+}
+
+
+.home .topp
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .topp h1
+{   
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: 6rem;
+    padding: 15px;
+}
+
+.home .topp h1 span 
+{
+    color: #ff6622;
+    font-size: 1.4em;
+}
+
+
+
+.home .tochka
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .tochka h5
+{
+    font-size: 5em;
+    color: #fff;
+    margin-top: rem;
+}
+       
+
+.home h3
+{
+	position: absolute;
+	font-size: 0.8em;
+	color: #fff;
+	margin-top: rem;
+	padding: 15px;
+}
+
+
+.down1
+{
+    display: flex;
+    justify-content: center;
+	margin-top: 15rem;
+}
+
+
+
+
+.down1 a 
+{
+    display: inline-block;
+    padding: 14px 80px;
+    background: #ff6622;
+    color: #fff;
+    margin-top: 2.5rem;
+    font-size: 1.1em;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+
+.down1 a:hover
+{
+    background: #999;
+    box-shadow: 0px 0px 4px 4px #999;
+    transition: 0.3s
+}
+
+
+
+
+
+/********More1********/
+
+
+.more1 
+{
+    width: 100%;
+    height: 700px;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center ;
+}
+
+
+.more1 h1
+{
+    font-size: 1.8em;
+    padding: 25px   ;
+}
+
+
+
+
+.more1  img 
+{
+    position: absolute;
+    width: 35%;
+    margin-top: 7rem;
+}
+
+
+.more1 p
+{
+    position: absolute;
+    font-size: .8em;
+    padding: 20px;
+    margin-top: 13rem;
+}
+
+
+.more1 .team
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.more1 .team img
+{
+    position: absolute;
+    width: 45%;
+    left: 25%;
+    margin-top: 22rem;
+}
+
+
+
+
+/*******footer*******/
+
+
+footer
+{
+    width: 100%;
+    height: 400px;
+    background: #444;
+    margin-top: rem;
+}
+
+
+footer .type1
+{
+    margin-top: rem;
+    padding: 30px;
+}
+
+footer .type1 ul li 
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+}
+
+
+footer .type1 ul li a
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    transition: 0.3s;
+}
+
+
+footer .type1 ul li a:hover
+{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    transition: 0.3s;
+}
+
+
+
+/*************Deliver***********/
+
+
+.deliver
+{
+	width: 100%;
+	height: 1100px;
+}
+
+
+.deliver h1
+{
+	font-size: 3em;
+	color: #444;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+
+.deliver .main-wrapper
+{
+    
+}
+
+
+
+.deliver .inputs-block
+{
+	margin-top: 2rem;
+    padding: 20px;
+}
+
+
+.deliver .inputs-block-column h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper
+{
+	margin-top: 0.2rem;
+}
+
+
+.deliver .inputs-wrapper input
+{
+	width: 70px;
+	height: 30px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 0.8em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+.deliver .total-number
+{
+	position: absolute;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block2
+{
+	margin-top: -0.5rem;
+}
+
+
+.deliver .inputs-block-column2 h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper2
+{
+	margin-top: 1rem;
+}
+
+
+.deliver .inputs-wrapper2 input
+{
+	width: 200px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.deliver .total-numb
+{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 10rem;
+}
+
+
+.deliver .total-numb input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .boxA
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: -10.5rem;
+}
+
+
+
+.deliver .boxA h3
+{
+	padding: 10px;
+}
+
+
+.deliver .total-number
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: -1rem;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block-column3
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column4
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column5
+{
+	position: absolute;
+	margin-top: -8rem;
+	margin-left: -480px;
+}
+
+
+.deliver .inputs-block-column5 h6
+{
+	font-size: 2em;
+	color: #faa520;
+}
+
+
+.deliver .inputs-block-column5 input
+{
+	font-size: 4em;
+	width: 214px;
+}
+
+
+
+.deliver .inputs-block-column6
+{
+	position: absolute;
+	margin-left: -470px;
+}
+
+.deliver .inputs-block-column6 h6
+{
+	font-size: 1.6em;
+	color: #f00;
+}
+
+
+
+.deliver .inputs-block-column6 input
+{
+	font-size: 3em;
+	width: 128px;
+	color: #444;
+}
+
+
+
+.deliver .total-numbA
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top:  -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbA input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbB
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbB input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbC
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbC input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbD
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbD input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbE
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbE input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbF
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbF input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbG
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbG input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+
+.deliver .total-numbH
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbH input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbI
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbI input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+.deliver .total-numbJ
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -2.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbJ input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}/*************Deliver***********/
+
+
+.deliver
+{
+	width: 100%;
+	height: 1100px;
+}
+
+
+.deliver h1
+{
+	font-size: 3em;
+	color: #444;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+
+.deliver .main-wrapper
+{
+    
+}
+
+
+
+.deliver .inputs-block
+{
+	margin-top: 2rem;
+    padding: 20px;
+}
+
+
+.deliver .inputs-block-column h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper
+{
+	margin-top: 0.2rem;
+}
+
+
+.deliver .inputs-wrapper input
+{
+	width: 50px;
+	height: 30px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 0.8em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+.deliver .total-number
+{
+	position: absolute;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block2
+{
+	margin-top: -0.5rem;
+}
+
+
+.deliver .inputs-block-column2 h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper2
+{
+	margin-top: 1rem;
+}
+
+
+.deliver .inputs-wrapper2 input
+{
+	width: 200px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.deliver .total-numb
+{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 10rem;
+}
+
+
+.deliver .total-numb input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .boxA
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: -10.5rem;
+}
+
+
+
+.deliver .boxA h3
+{
+	padding: 10px;
+}
+
+
+.deliver .total-number
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: -1rem;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block-column3
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column4
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column5
+{
+	position: absolute;
+	margin-top: -8rem;
+	margin-left: -480px;
+}
+
+
+.deliver .inputs-block-column5 h6
+{
+	font-size: 2em;
+	color: #faa520;
+}
+
+
+.deliver .inputs-block-column5 input
+{
+	font-size: 4em;
+	width: 214px;
+}
+
+
+
+.deliver .inputs-block-column6
+{
+	position: absolute;
+	margin-left: -470px;
+}
+
+.deliver .inputs-block-column6 h6
+{
+	font-size: 1.6em;
+	color: #f00;
+}
+
+
+
+.deliver .inputs-block-column6 input
+{
+	font-size: 3em;
+	width: 128px;
+	color: #444;
+}
+
+
+
+.deliver .total-numbA
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top:  -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbA input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbB
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbB input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbC
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbC input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbD
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbD input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+.deliver .total-numbE
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbE input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbF
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbF input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbG
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbG input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+
+.deliver .total-numbH
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbH input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+.deliver .total-numbI
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbI input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+.deliver .total-numbJ
+{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -2.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbJ input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 55px;
+}
+
+
+
+/**********Contact*******/
+
+.contact
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background: #de681a;
+}
+
+
+.contact h1
+{
+	position: absolute;
+	font-size: 1.6em;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+
+.contact .box 
+{
+	position: absolute;
+	width: 85%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-radius: 15px;
+	margin-top: 5rem;
+}
+
+
+.contact .box h3
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #000;
+	margin-top: 1rem;
+}
+
+
+.contact .box .ins 
+{
+	display: block;	
+	margin: auto;
+	position: absolute;
+	margin-top: 4.5rem;
+}
+
+
+
+.contact .box .ins input 
+{
+	width: 100%;
+	height: 30px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact .box .ins span input 
+{
+	width: 100%;
+	height: 60px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact a 
+{
+	position: absolute;
+	padding: 14px 75px;
+	background: #de681a;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: 17rem;
+}
+
+
+
+
+/***********Info************/
+
+
+.info
+{
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center ;
+}
+
+
+.info h1
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #faa520;
+	margin-top: 0.5rem;
+}
+
+
+
+.info .boxe
+{
+	position: absolute;
+	width: 80%;
+	height: 165px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 5rem;
+}
+
+
+
+.info .boxe h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe img 
+{
+	position: absolute;
+	width: 55%;
+}
+
+
+
+
+.info .boxe2
+{
+	position: absolute;
+	width: 80%;
+	height: 165px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 17rem;
+}
+
+
+
+.info .boxe2 h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe2 img 
+{
+	position: absolute;
+	width: 55%;
+	margin-top: 0.3rem;
+}
+
+
+
+.info .boxe3
+{
+	position: absolute;
+	width: 80%;
+	height: 165px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	box-shadow: 8px 16px 16px rgba(0,0,0,0.08);
+	margin-top: 29rem;
+}
+
+
+
+.info .boxe3 h3
+{
+	position: absolute;
+	font-size: 1.1em;
+	color: #444;
+	margin-top: 0.6rem;
+}
+
+
+
+
+.info .boxe3 img 
+{
+	position: absolute;
+	width: 55%;
+	margin-top: 0.3rem;
+}
+
+
+
+.info a 
+{
+	position: absolute;
+	padding: 15px 85px;
+	background: #de681a;
+	color: #fff;
+	font-size: 1.1em;
+	text-decoration: none;
+	border-radius: 15px;
+	margin-top: 44rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 2770px) {
+    
+  
+    
+    nav li a 
+    {
+        font-size: 20px;
+        transition: 0.3s;
+        padding: 3px;
+    }
+    
+    
+    nav li a:hover
+    {
+        border-bottom: 3px solid rgba(0,0,0,0.3);
+        color: rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+    
+    
+
+.home 
+{
+    width: 100%;
+    height: 760px;
+    background: #000;   
+}
+
+
+.home .topp
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .topp h1
+{   
+    font-size: 1.4em;
+    color: #fff;
+    margin-top: 6rem;
+    padding: 15px;
+}
+
+.home .topp h1 span 
+{
+    color: #ff6622;
+    font-size: 1.4em;
+}
+
+
+
+.home .tochka
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home .tochka h5
+{
+    font-size: 5em;
+    color: #fff;
+    margin-top: rem;
+}
+       
+
+.home h3
+{
+	position: absolute;
+	font-size: 0.8em;
+	color: #fff;
+	margin-top: rem;
+	padding: 15px;
+}
+
+
+.down1
+{
+    display: flex;
+    justify-content: center;
+	margin-top: 15rem;
+}
+
+
+
+
+.down1 a 
+{
+    display: inline-block;
+    padding: 14px 80px;
+    background: #ff6622;
+    color: #fff;
+    margin-top: 2.5rem;
+    font-size: 1.1em;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+
+.down1 a:hover
+{
+    background: #999;
+    box-shadow: 0px 0px 4px 4px #999;
+    transition: 0.3s
+}
+
+
+
+
+
+/********More1********/
+
+
+.more1 
+{
+    width: 100%;
+    height: 700px;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center ;
+}
+
+
+.more1 h1
+{
+    font-size: 1.8em;
+    padding: 25px   ;
+}
+
+
+
+
+.more1  img 
+{
+    position: absolute;
+    width: 35%;
+    margin-top: 3rem;
+}
+
+
+.more1 p
+{
+    position: absolute;
+    font-size: .8em;
+    padding: 20px;
+    margin-top: 21rem;
+}
+
+
+.more1 .team
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.more1 .team img
+{
+    display: none;
+    position: absolute;
+    width: 45%;
+    left: 25%;
+    margin-top: 22rem;
+}
+
+
+
+
+/*******footer*******/
+
+
+footer
+{
+    width: 100%;
+    height: 400px;
+    background: #444;
+    margin-top: rem;
+}
+
+
+footer .type1
+{
+    margin-top: rem;
+    padding: 30px;
+}
+
+footer .type1 ul li 
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+}
+
+
+footer .type1 ul li a
+{
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    transition: 0.3s;
+}
+
+
+footer .type1 ul li a:hover
+{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    transition: 0.3s;
+}
+
+
+
+
+/*************Deliver***********/
+
+
+.deliver
+{
+	width: 100%;
+	height: 1500px;
+}
+
+
+.deliver h1
+{
+	font-size: 3em;
+	color: #444;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+
+.deliver .main-wrapper
+{
+    
+}
+
+
+
+.deliver .inputs-block
+{
+	margin-top: 2rem;
+    padding: 20px;
+}
+
+
+.deliver .inputs-block-column h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper
+{
+	margin-top: 0.2rem;
+}
+
+
+.deliver .inputs-wrapper input
+{
+	width: 70px;
+	height: 30px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 0.8em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+.deliver .total-number
+{
+	position: absolute;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block2
+{
+	margin-top: -0.5rem;
+}
+
+
+.deliver .inputs-block-column2 h6
+{
+	font-size: 2em;
+	color: #444;
+}
+
+.deliver .inputs-wrapper2
+{
+	margin-top: 1rem;
+}
+
+
+.deliver .inputs-wrapper2 input
+{
+	width: 200px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: 0.5rem;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.deliver .total-numb
+{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 10rem;
+}
+
+
+.deliver .total-numb input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .boxA
+{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	margin-top: -10.5rem;
+}
+
+
+
+.deliver .boxA h3
+{
+	padding: 10px;
+}
+
+
+.deliver .total-number
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: -1rem;
+}
+
+
+.deliver .total-number input
+{
+	border: none;
+	font-size: 2.5em;
+	color: #444;
+}
+
+
+.deliver .inputs-block-column3
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column4
+{
+	position: absolute;
+	margin-top: 2rem;
+}
+
+
+.deliver .inputs-block-column5
+{
+	position: absolute;
+	margin-top: -8rem;
+	margin-left: -480px;
+}
+
+
+.deliver .inputs-block-column5 h6
+{
+	font-size: 2em;
+	color: #faa520;
+}
+
+
+.deliver .inputs-block-column5 input
+{
+	font-size: 4em;
+	width: 214px;
+}
+
+
+
+.deliver .inputs-block-column6
+{
+	position: absolute;
+	margin-left: -470px;
+}
+
+.deliver .inputs-block-column6 h6
+{
+	font-size: 1.6em;
+	color: #f00;
+}
+
+
+
+.deliver .inputs-block-column6 input
+{
+	font-size: 3em;
+	width: 128px;
+	color: #444;
+}
+
+
+
+.deliver .total-numbA
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top:  -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbA input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+
+.deliver .total-numbB
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbB input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+.deliver .total-numbC
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbC input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+
+.deliver .total-numbD
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbD input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+
+.deliver .total-numbE
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbE input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+.deliver .total-numbF
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbF input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+.deliver .total-numbG
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbG input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+
+
+.deliver .total-numbH
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbH input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+.deliver .total-numbI
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -4.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbI input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+.deliver .total-numbJ
+{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -2.1rem;
+	border: none;
+}
+
+
+.deliver .total-numbJ input
+{
+	border: none;
+	color: #444;
+	font-size: 1.4em;
+	width: 75px;
+}
+
+
+
+
+
+.deliver .form
+{
+	max-width: 550px;
+	margin-top: 20rem;
+	color: #444;
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+.deliver .form_body
+{}
+
+.deliver .form_title
+{
+	font-size: 2em;
+	font-weight: 700;
+	margin: 2rem;
+}
+
+
+.deliver .form_item
+{
+	margin: 0px 0px 20px 0px;
+}
+
+
+.deliver .form_label
+{
+	font-size: 18px;
+	display: block;
+	margin: 0px 0px 10px 0px;
+	margin-left: 10px;
+}
+
+
+.deliver .form_input
+{
+	height: 50px;
+	padding: 0px 20px;
+	border-radius: 5px;
+	width: 80%;
+	font-size: 18px;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	margin-left: 10px;
+}
+
+
+.deliver textarea.form_input
+{
+	min-height: 100px;
+	resize: vertical;
+}
+
+
+.deliver .form_button
+{
+	width: 200px;
+	height: 50px;
+	background: #444;
+	font-size: 1.1em;
+	border: none;
+	color: #fff;
+	border-radius: 30px;
+	margin-left: 10px;
+}
+
+
+
+
+
+/**********Contact*******/
+
+.contact
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background: #de681a;
+}
+
+
+.contact h1
+{
+	position: absolute;
+	font-size: 1.6em;
+	color: #fff;
+	margin-top: 1rem;
+}
+
+
+.contact .box 
+{
+	position: absolute;
+	width: 85%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border-radius: 15px;
+	margin-top: 5rem;
+}
+
+
+.contact .box h3
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #000;
+	margin-top: 1rem;
+}
+
+
+.contact .box .ins 
+{
+	display: block;	
+	margin: auto;
+	position: absolute;
+	margin-top: 4.5rem;
+}
+
+
+
+.contact .box .ins input 
+{
+	width: 100%;
+	height: 30px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact .box .ins span input 
+{
+	width: 100%;
+	height: 60px;
+	border: none;
+	padding: 5px;
+	background: rgba(0,0,0,0.08);
+	color: #fff;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+}
+
+
+.contact a 
+{
+	position: absolute;
+	padding: 14px 75px;
+	background: #de681a;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: 17rem;
+}
+
+
+
+
+
+
+
+
+
+}
